@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.0.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <title>Fortune Teller</title>
+  </head>
+  <body class="container">
+     <div class="jumbotron">
+        <h1>Fortune Teller <span>Quiz</span></h1>
+        <p>Belief in lucky & unlucky omens has always been a part of our psyche. Like it or not, many of us belief in signs of good fortune and impending misfortune. Each time something remotely out of the ordinary happen to us, instantly we wonder if it will bring us good or bad luck. Here are coomon events in everyday life believed to be powerful indications of good and bad fortune.</p>
+     </div>
+    <form id="fortune-survey" class="panel panel-info modifier">
+      <h2>What bad things happened to you recently?</h2>
+      <div class="form-signs-unlucky">
+        <p>Please check all that apply!</p>
+        <input type="checkbox" name="signs-unlucky" value="Loss of Sleep">
+        Crossed a Black Cat<br>
+        <input type="checkbox" name="signs-unlucky" value="Feeling overwhelmed">
+        Walked under Ladder<br>
+        <input type="checkbox" name="signs-unlucky" value="Loss of apetite">
+        Broke a mirror<br>
+        <input type="checkbox" name="signs-unlucky" value="Trouble focusing">
+        Stepped on a crack<br>
+        <input type="checkbox" name="signs-unlucky" value="Feeling unproductive">
+        Stubbed you toe<br>
+      </div>
+      <h2 id="good-things">What good things happened to you recently?</h2>
+      <div class="form-signs-lucky">
+        <p>Please check all that apply!</p>
+        <input type="checkbox" name="signs-lucky" value="High blood Pressure">
+        Found a four-leaf clover<br>
+        <input type="checkbox" name="signs-lucky" value="Anxiety">
+        Saw a rainbow<br>
+        <input type="checkbox" name="signs-lucky" value="Low energy">
+        Rabbit's Foot<br>
+        <input type="checkbox" name="signs-lucky" value="Insomnia">
+        Ladybug landed on you<br>
+        <input type="checkbox" name="signs-lucky" value="Nausea">
+        Saw a dolphin<br>
+      </div>
+      <button type="submit" class="btn btn-light">Submit Quiz</button>
+    </form>
+    <div id="fortune" class="panel panel-info modifier">
+      <h2>Your Fortune Is:</h2>
+      <p id="output"></p>
+    </div>
+  </body>
+</html>
