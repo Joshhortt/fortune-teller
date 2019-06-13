@@ -7,21 +7,21 @@ body {
   color: white;
 }
 
-h1  {
+h1 {
   font-size: 2rem;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
 
-h2  {
+h2 {
   font-size: 1.3rem;
 }
 
-span  {
+span {
   font-size: 1rem;
 }
 
-.jumbotron  {
+.jumbotron {
   background-color: rgb(64, 64, 64);
 }
 
@@ -29,19 +29,19 @@ span  {
   padding: 6px;
 }
 
-.btn  {
+.btn {
   margin: 15px 0 15px 0;
 }
 
-#guidance{
+#guidance {
   display: none;
 }
 
-#good-things  {
+#good-things {
   margin-top: 30px;
 }
 
-#output  {
+#output {
   color: rgb(250, 185, 21);
   font-size: 2rem;
   font-weight: 600;
