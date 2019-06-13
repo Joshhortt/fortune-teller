@@ -1,0 +1,48 @@
+body {
+  font-size: 1rem;
+  background-color: rgb(178, 5, 5);
+  padding: 8px;
+  margin: 8px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+h1  {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+h2  {
+  font-size: 1.3rem;
+}
+
+span  {
+  font-size: 1rem;
+}
+
+.jumbotron  {
+  background-color: rgb(64, 64, 64);
+}
+
+.modifier {
+  padding: 6px;
+}
+
+.btn  {
+  margin: 15px 0 15px 0;
+}
+
+#guidance{
+  display: none;
+}
+
+#good-things  {
+  margin-top: 30px;
+}
+
+#output  {
+  color: rgb(250, 185, 21);
+  font-size: 2rem;
+  font-weight: 600;
+}
